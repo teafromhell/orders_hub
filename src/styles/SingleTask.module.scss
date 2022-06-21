@@ -1,0 +1,70 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+
+  border-bottom: 1px solid black;
+
+  padding: 10px;
+  align-items: center;
+
+  &:hover {
+    color: rgb(196, 50, 50);
+  }
+
+  li {
+    width: 25%;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    
+    span {
+      font-size: 13px;
+      color: gray;
+    }
+  }
+
+  li:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      width: 100px;
+      padding: 7px 5px;
+      color: white;
+      font-size: 13px;
+      font-weight: bold;
+
+      border-radius: 5px;
+    }
+  }
+}
+
+.new {
+  background: brown;
+}
+
+.cancel {
+  background: black;
+}
+
+.completed {
+  background: green;
+}
+
+.started {
+  background: rgb(64, 64, 182);
+}
+
+.assigned_to {
+  background: goldenrod;
+}

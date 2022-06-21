@@ -1,0 +1,42 @@
+.search {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.input_container {
+    margin-bottom: 10px;
+    input {
+        padding: 5px;
+        width: 300px;
+    }
+}
+
+.bottom_div {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    select {
+        margin-left: 5px;
+    }
+    
+    div {
+        width: 100px;
+        button {
+            margin-left: 5px;
+            padding: 5px 7px;
+            cursor: pointer;
+            border: none;
+            
+            border-radius: 4px;
+            background: black;
+            color: white;
+        }
+    }
+}
+
+.active {
+    outline: 2px solid brown;
+}
