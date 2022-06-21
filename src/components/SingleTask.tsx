@@ -38,7 +38,7 @@ const SingleTask = ({ task }: { task: Root }) => {
                     </span>
                 </li>
                 <li>{task.account.name} <br /> <span>{task.terminal.name} </span></li>
-                <li> <div className={colorStatus}> {task.status}</div></li>
+                <li> <div className={colorStatus}> {task.status.slice(0,8)}</div></li>
             </ul>
 
 

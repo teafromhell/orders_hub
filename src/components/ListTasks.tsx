@@ -68,7 +68,7 @@ const ListTasks: React.FC = () => {
                     <select name="status" onChange={handleStatus}>
                         <option defaultValue="All">All</option>
                         <option value="new">New</option>
-                        <option value="completed">Completed</option>
+                        <option value="completed">Complete</option>
                         <option value="started">Started</option>
                         <option value="assigned_to">Assigned</option>
                         <option value="declined">Declined</option>
